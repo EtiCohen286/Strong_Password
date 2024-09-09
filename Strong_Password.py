@@ -25,5 +25,6 @@ def strong_password(password):
     for seq in sequences:
         for i in range(len(seq) - 2):
             if seq[i:i+3] in password:
-                return False
+                return False        
     return True
+
