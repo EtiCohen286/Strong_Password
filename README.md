@@ -16,3 +16,19 @@ The password will be considered strong if it meets all of the following criteria
 
 use:
 To use the code, you must enter a password and get back a true value (true) if the password meets all the above criteria, or a false value (false) if it does not.
+
+Installation Instructions:
+Follow these steps to install and run the strong password validation script.
+
+1. Clone the repository
+First, clone the repository to your local machine using the following command:
+git clone https://github.com/etic286/sign-up.git
+
+2. Navigate to the project directory
+After cloning, navigate to the project directory:
+cd repository-name/strongPassword
+
+3. Run the script
+Finally, you can run the password validation script by executing:
+python Strong_Password.py
+The script will ask you to input a password and will validate its strength based on the criteria provided.
